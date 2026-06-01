@@ -1,16 +1,56 @@
-# React + Vite
+# CP Analyzer 🏆
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Full-stack Competitive Programming analytics dashboard — track your Codeforces performance, detect weaknesses, and improve faster.
 
-Currently, two official plugins are available:
+![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Vercel-black) ![Stack](https://img.shields.io/badge/Stack-React_|_FastAPI_|_Sklearn-blue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Demo:** [cp-analyzer-eight.vercel.app](https://cp-analyzer-eight.vercel.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshot
 
-## Expanding the ESLint configuration
+![Dashboard](Screenshot%202026-06-01%20213829.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Features
+
+- 🔍 **Codeforces Profile Lookup** — Enter any handle and fetch real-time stats
+- 📊 **Performance Dashboard** — Visual breakdown of rating, solved problems, submission history
+- 🧠 **Weakness Detection** — ML model (Sklearn) identifies problem tags where you underperform
+- 📈 **Progress Tracking** — Rating history and contest performance charts
+- ⚡ **FastAPI Backend** — REST API deployed on Render
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Tech |
+|-------|------|
+| Frontend | React + Vite |
+| Backend | FastAPI (Python) |
+| ML | Scikit-learn |
+| Deployment | Vercel + Render |
+
+---
+
+## 🚀 Run Locally
+
+```bash
+# Backend
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+# Frontend
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 👩‍💻 Author
+
+**Snehal Thombare** — [GitHub](https://github.com/snehal-thombare08)
